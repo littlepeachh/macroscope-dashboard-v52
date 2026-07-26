@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 168,
-      "started_at": "2026-07-26T17:38:06+08:00",
-      "finished_at": "2026-07-26T17:38:24+08:00",
+      "started_at": "2026-07-26T22:52:03+08:00",
+      "finished_at": "2026-07-26T22:52:33+08:00",
       "latest_date": "202606",
       "total_cached_rows": 168,
       "source_details": {
@@ -43,32 +43,20 @@
       "cached_rows": 168
     },
     "liquidity": {
-      "status": "success",
-      "rows": 4944,
-      "started_at": "2026-07-26T17:38:24+08:00",
-      "finished_at": "2026-07-26T17:38:47+08:00",
+      "status": "failed",
+      "rows": 0,
+      "started_at": "2026-07-26T22:52:33+08:00",
+      "finished_at": "2026-07-26T22:53:15+08:00",
+      "error": "DataFetchError('DR与Shibor数据源均失败')",
+      "cached_rows": 4944,
       "latest_date": "20260724",
-      "total_cached_rows": 4944,
-      "source_details": {
-        "shibor_on": {
-          "status": "success",
-          "rows": 4944,
-          "source": "中国货币网 / AKShare"
-        },
-        "dr": {
-          "status": "failed",
-          "error": "DataFetchError('中国货币网未解析到DR001/DR007；严格不以FDR替代。')",
-          "note": "严格不使用FDR替代DR"
-        }
-      },
-      "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 4944
+      "serving_cached_data": true
     },
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-07-25T22:49:44+08:00",
-      "finished_at": "2026-07-25T22:50:06+08:00",
+      "started_at": "2026-07-26T22:53:15+08:00",
+      "finished_at": "2026-07-26T22:53:23+08:00",
       "latest_date": "20260721",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -338,7 +326,7 @@
       "latest_date": "20260721"
     }
   },
-  "updated_at": "2026-07-26T17:38:06+08:00",
-  "overall_status": "success",
-  "last_update_mode": "macro"
+  "updated_at": "2026-07-26T22:52:03+08:00",
+  "overall_status": "partial",
+  "last_update_mode": "evening"
 }
