@@ -4,15 +4,15 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-14T14:58:09+08:00",
-      "finished_at": "2026-08-14T14:58:29+08:00",
+      "started_at": "2026-08-14T22:30:03+08:00",
+      "finished_at": "2026-08-14T22:30:29+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
         "components": {
           "money_supply": {
             "status": "success",
-            "rows": 168,
+            "rows": 169,
             "source": "东方财富 / AKShare"
           },
           "social_financing": {
@@ -22,7 +22,7 @@
           },
           "social_financing_stock": {
             "status": "success",
-            "rows": 6,
+            "rows": 7,
             "source": "中国人民银行官方社会融资规模存量统计表"
           },
           "pmi": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4959,
-      "started_at": "2026-08-14T14:58:29+08:00",
-      "finished_at": "2026-08-14T14:58:46+08:00",
+      "started_at": "2026-08-14T22:30:29+08:00",
+      "finished_at": "2026-08-14T22:30:47+08:00",
       "latest_date": "20260814",
       "total_cached_rows": 4959,
       "source_details": {
@@ -67,9 +67,9 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-08-12T22:39:49+08:00",
-      "finished_at": "2026-08-12T22:39:56+08:00",
-      "latest_date": "20260805",
+      "started_at": "2026-08-14T22:30:47+08:00",
+      "finished_at": "2026-08-14T22:30:55+08:00",
+      "latest_date": "20260806",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
       "cached_rows": 300
@@ -338,7 +338,7 @@
       "latest_date": "20260721"
     }
   },
-  "updated_at": "2026-08-14T19:13:49+08:00",
+  "updated_at": "2026-08-14T22:30:03+08:00",
   "overall_status": "success",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
