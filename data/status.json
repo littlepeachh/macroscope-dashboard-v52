@@ -76,11 +76,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 32828,
-      "started_at": "2026-08-18T18:01:03+08:00",
-      "finished_at": "2026-08-18T18:01:13+08:00",
+      "rows": 31258,
+      "started_at": "2026-08-19T07:02:55+08:00",
+      "finished_at": "2026-08-19T07:03:33+08:00",
       "latest_date": "20260818",
-      "total_cached_rows": 32854,
+      "total_cached_rows": 32867,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -89,12 +89,12 @@
         },
         "399001.SZ": {
           "status": "success",
-          "rows": 1605,
+          "rows": 1606,
           "source": "新浪财经 / AKShare"
         },
         "399006.SZ": {
           "status": "success",
-          "rows": 1605,
+          "rows": 1606,
           "source": "新浪财经 / AKShare"
         },
         "000300.SH": {
@@ -108,68 +108,67 @@
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
-          "status": "success",
-          "rows": 1607,
-          "source": "中证指数官网 / AKShare"
+          "status": "failed",
+          "error": "DataFetchError(\"指数行情失败: 中证指数官网 / AKShare: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) | 东方财富指数日线 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))) | 东方财富指数历史 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))\")"
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1660,
+          "rows": 1665,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1660,
+          "rows": 1665,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1660,
+          "rows": 1665,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1663,
+          "rows": 1667,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
           "status": "success",
-          "rows": 1663,
+          "rows": 1665,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1663,
+          "rows": 1665,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1663,
+          "rows": 1665,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1663,
+          "rows": 1665,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1663,
+          "rows": 1665,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1663,
+          "rows": 1665,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1663,
+          "rows": 1665,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1663,
+          "rows": 1665,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
@@ -183,20 +182,20 @@
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 32854
+      "cached_rows": 32867
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-18T07:01:59+08:00",
-      "finished_at": "2026-08-18T07:11:14+08:00",
-      "latest_date": "20260814",
-      "total_cached_rows": 40,
+      "started_at": "2026-08-19T07:03:33+08:00",
+      "finished_at": "2026-08-19T07:12:47+08:00",
+      "latest_date": "20260817",
+      "total_cached_rows": 42,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260814",
+          "latest_date": "20260817",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -206,7 +205,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260814",
+          "latest_date": "20260817",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -215,17 +214,17 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260814",
-        "DGS10": "20260814"
+        "DGS2": "20260817",
+        "DGS10": "20260817"
       },
       "note": "DGS10独立抓取；DGS2失败不会阻止美国10年期国债收益率更新。",
-      "cached_rows": 40
+      "cached_rows": 42
     },
     "deviation": {
       "status": "success",
       "rows": 1700,
-      "started_at": "2026-08-18T18:03:15+08:00",
-      "finished_at": "2026-08-18T18:03:15+08:00",
+      "started_at": "2026-08-19T07:12:47+08:00",
+      "finished_at": "2026-08-19T07:12:47+08:00",
       "latest_date": "20260818",
       "total_cached_rows": 1700,
       "method": "(指数收盘/10周或20周均线-1)×100%",
@@ -238,12 +237,12 @@
         "399001.SZ": {
           "status": "success",
           "rows": 340,
-          "latest_date": "20260817"
+          "latest_date": "20260818"
         },
         "399006.SZ": {
           "status": "success",
           "rows": 340,
-          "latest_date": "20260817"
+          "latest_date": "20260818"
         },
         "000688.SH": {
           "status": "success",
@@ -338,7 +337,7 @@
       "latest_date": "20260721"
     }
   },
-  "updated_at": "2026-08-18T19:46:59+08:00",
+  "updated_at": "2026-08-19T07:02:55+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
