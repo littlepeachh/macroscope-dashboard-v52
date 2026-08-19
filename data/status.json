@@ -76,11 +76,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 32868,
-      "started_at": "2026-08-19T18:01:33+08:00",
-      "finished_at": "2026-08-19T18:01:42+08:00",
+      "rows": 32885,
+      "started_at": "2026-08-20T07:03:53+08:00",
+      "finished_at": "2026-08-20T07:04:02+08:00",
       "latest_date": "20260819",
-      "total_cached_rows": 32873,
+      "total_cached_rows": 32887,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -89,12 +89,12 @@
         },
         "399001.SZ": {
           "status": "success",
-          "rows": 1606,
+          "rows": 1607,
           "source": "新浪财经 / AKShare"
         },
         "399006.SZ": {
           "status": "success",
-          "rows": 1606,
+          "rows": 1607,
           "source": "新浪财经 / AKShare"
         },
         "000300.SH": {
@@ -109,22 +109,22 @@
         },
         "931087.CSI": {
           "status": "success",
-          "rows": 1607,
+          "rows": 1608,
           "source": "中证指数官网 / AKShare"
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1662,
+          "rows": 1666,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1666,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1666,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
@@ -134,42 +134,42 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1666,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1666,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1666,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1666,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1666,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1666,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1666,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1666,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
@@ -183,20 +183,20 @@
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 32873
+      "cached_rows": 32887
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-19T07:03:33+08:00",
-      "finished_at": "2026-08-19T07:12:47+08:00",
-      "latest_date": "20260817",
-      "total_cached_rows": 42,
+      "started_at": "2026-08-20T07:04:02+08:00",
+      "finished_at": "2026-08-20T07:13:16+08:00",
+      "latest_date": "20260818",
+      "total_cached_rows": 44,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260817",
+          "latest_date": "20260818",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -206,7 +206,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260817",
+          "latest_date": "20260818",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -215,17 +215,17 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260817",
-        "DGS10": "20260817"
+        "DGS2": "20260818",
+        "DGS10": "20260818"
       },
       "note": "DGS10独立抓取；DGS2失败不会阻止美国10年期国债收益率更新。",
-      "cached_rows": 42
+      "cached_rows": 44
     },
     "deviation": {
       "status": "success",
       "rows": 1700,
-      "started_at": "2026-08-19T18:03:45+08:00",
-      "finished_at": "2026-08-19T18:03:45+08:00",
+      "started_at": "2026-08-20T07:13:16+08:00",
+      "finished_at": "2026-08-20T07:13:16+08:00",
       "latest_date": "20260819",
       "total_cached_rows": 1700,
       "method": "(指数收盘/10周或20周均线-1)×100%",
@@ -238,12 +238,12 @@
         "399001.SZ": {
           "status": "success",
           "rows": 340,
-          "latest_date": "20260818"
+          "latest_date": "20260819"
         },
         "399006.SZ": {
           "status": "success",
           "rows": 340,
-          "latest_date": "20260818"
+          "latest_date": "20260819"
         },
         "000688.SH": {
           "status": "success",
@@ -338,7 +338,7 @@
       "latest_date": "20260721"
     }
   },
-  "updated_at": "2026-08-19T19:45:53+08:00",
+  "updated_at": "2026-08-20T07:03:53+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
