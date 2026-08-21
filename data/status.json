@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-21T11:11:33+08:00",
-      "finished_at": "2026-08-21T11:11:50+08:00",
+      "started_at": "2026-08-21T19:01:45+08:00",
+      "finished_at": "2026-08-21T19:02:07+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -44,15 +44,15 @@
     },
     "liquidity": {
       "status": "success",
-      "rows": 4963,
-      "started_at": "2026-08-21T11:11:50+08:00",
-      "finished_at": "2026-08-21T11:12:05+08:00",
-      "latest_date": "20260820",
-      "total_cached_rows": 4963,
+      "rows": 4964,
+      "started_at": "2026-08-21T19:02:07+08:00",
+      "finished_at": "2026-08-21T19:02:24+08:00",
+      "latest_date": "20260821",
+      "total_cached_rows": 4964,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 4963,
+          "rows": 4964,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
@@ -62,14 +62,14 @@
         }
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 4963
+      "cached_rows": 4964
     },
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-08-20T19:02:42+08:00",
-      "finished_at": "2026-08-20T19:02:49+08:00",
-      "latest_date": "20260814",
+      "started_at": "2026-08-21T19:02:24+08:00",
+      "finished_at": "2026-08-21T19:02:30+08:00",
+      "latest_date": "20260818",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
       "cached_rows": 300
@@ -335,7 +335,7 @@
       "latest_date": "20260721"
     }
   },
-  "updated_at": "2026-08-21T17:10:48+08:00",
+  "updated_at": "2026-08-21T19:01:45+08:00",
   "overall_status": "success",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
