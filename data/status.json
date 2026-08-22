@@ -76,11 +76,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 31315,
-      "started_at": "2026-08-22T06:45:48+08:00",
-      "finished_at": "2026-08-22T06:46:24+08:00",
+      "rows": 32925,
+      "started_at": "2026-08-23T06:43:02+08:00",
+      "finished_at": "2026-08-23T06:43:11+08:00",
       "latest_date": "20260821",
-      "total_cached_rows": 32926,
+      "total_cached_rows": 32927,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -108,8 +108,9 @@
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
-          "status": "failed",
-          "error": "DataFetchError(\"指数行情失败: 中证指数官网 / AKShare: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) | 东方财富指数日线 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))) | 东方财富指数历史 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))\")"
+          "status": "success",
+          "rows": 1610,
+          "source": "中证指数官网 / AKShare"
         },
         "^IXIC": {
           "status": "success",
@@ -182,13 +183,13 @@
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 32926
+      "cached_rows": 32927
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-22T06:46:24+08:00",
-      "finished_at": "2026-08-22T06:55:38+08:00",
+      "started_at": "2026-08-23T06:43:11+08:00",
+      "finished_at": "2026-08-23T06:52:26+08:00",
       "latest_date": "20260820",
       "total_cached_rows": 48,
       "source_details": {
@@ -223,8 +224,8 @@
     "deviation": {
       "status": "success",
       "rows": 1700,
-      "started_at": "2026-08-22T06:55:38+08:00",
-      "finished_at": "2026-08-22T06:55:38+08:00",
+      "started_at": "2026-08-23T06:52:26+08:00",
+      "finished_at": "2026-08-23T06:52:26+08:00",
       "latest_date": "20260821",
       "total_cached_rows": 1700,
       "method": "(指数收盘/10周或20周均线-1)×100%",
@@ -335,7 +336,7 @@
       "latest_date": "20260721"
     }
   },
-  "updated_at": "2026-08-22T18:56:54+08:00",
+  "updated_at": "2026-08-23T06:43:02+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
