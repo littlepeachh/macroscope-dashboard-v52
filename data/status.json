@@ -76,11 +76,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 32965,
-      "started_at": "2026-08-26T06:49:48+08:00",
-      "finished_at": "2026-08-26T06:49:57+08:00",
-      "latest_date": "20260825",
-      "total_cached_rows": 32968,
+      "rows": 32968,
+      "started_at": "2026-08-26T17:22:10+08:00",
+      "finished_at": "2026-08-26T17:22:22+08:00",
+      "latest_date": "20260826",
+      "total_cached_rows": 32971,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -129,7 +129,7 @@
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1672,
+          "rows": 1673,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
@@ -174,16 +174,16 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1628,
+          "rows": 1629,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1628,
+          "rows": 1629,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 32968
+      "cached_rows": 32971
     },
     "global_macro": {
       "status": "success",
@@ -224,8 +224,8 @@
     "deviation": {
       "status": "success",
       "rows": 1705,
-      "started_at": "2026-08-26T06:59:10+08:00",
-      "finished_at": "2026-08-26T06:59:11+08:00",
+      "started_at": "2026-08-26T17:24:17+08:00",
+      "finished_at": "2026-08-26T17:24:17+08:00",
       "latest_date": "20260825",
       "total_cached_rows": 1705,
       "method": "(指数收盘/10周或20周均线-1)×100%",
@@ -260,15 +260,15 @@
     },
     "valuation": {
       "status": "success",
-      "rows": 23373,
-      "started_at": "2026-08-25T17:17:44+08:00",
-      "finished_at": "2026-08-25T17:18:11+08:00",
-      "latest_date": "20260824",
-      "total_cached_rows": 23373,
+      "rows": 23378,
+      "started_at": "2026-08-26T17:22:22+08:00",
+      "finished_at": "2026-08-26T17:22:47+08:00",
+      "latest_date": "20260825",
+      "total_cached_rows": 23378,
       "indices": {
         "000001.SH": {
           "status": "success",
-          "rows": 5501,
+          "rows": 5502,
           "source": "中证指数官网 / AKShare"
         },
         "399001.SZ": {
@@ -281,54 +281,64 @@
         },
         "000688.SH": {
           "status": "success",
-          "rows": 1612,
+          "rows": 1613,
           "source": "中证指数官网 / AKShare"
         },
         "000016.SH": {
           "status": "success",
-          "rows": 5501,
+          "rows": 5502,
           "source": "中证指数官网 / AKShare"
         },
         "000300.SH": {
           "status": "success",
-          "rows": 5500,
+          "rows": 5501,
           "source": "中证指数官网 / AKShare"
         },
         "000905.SH": {
           "status": "success",
-          "rows": 5259,
+          "rows": 5260,
           "source": "中证指数官网 / AKShare"
         }
       },
-      "cached_rows": 23373
+      "cached_rows": 23378
     },
     "sentiment": {
-      "status": "failed",
-      "rows": 0,
-      "started_at": "2026-08-25T17:18:11+08:00",
-      "finished_at": "2026-08-25T17:22:19+08:00",
-      "error": "DataFetchError('A股实时行情失败: 东方财富沪深京A股实时行情: ConnectionError(ProtocolError(\\'Connection aborted.\\', RemoteDisconnected(\\'Remote end closed connection without response\\'))) | 新浪沪深京A股实时行情: JSONDecodeError(\"Can not decode value starting with character \\'<\\'\", position=position_marker(offset=0,line=1,column=0), severity=\\'error\\') | 东方财富沪深A股分市场行情: DataFetchError(\\'数据源返回空表\\')')"
+      "status": "success",
+      "rows": 2,
+      "started_at": "2026-08-26T17:22:47+08:00",
+      "finished_at": "2026-08-26T17:24:17+08:00",
+      "latest_date": "20260826",
+      "crowding_cached_rows": 18,
+      "breadth_cached_rows": 18,
+      "leverage": {
+        "status": "success",
+        "rows": 1,
+        "latest_date": "20260825",
+        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
+      },
+      "source": "新浪沪深京A股实时行情 / AKShare",
+      "snapshot_kind": "收盘后快照"
     },
     "crowding": {
       "status": "cached",
       "rows": 0,
-      "cached_rows": 17,
+      "cached_rows": 18,
       "latest_date": "20260722"
     },
     "breadth": {
       "status": "cached",
       "rows": 0,
-      "cached_rows": 17,
+      "cached_rows": 18,
       "latest_date": "20260722"
     },
     "leverage": {
       "status": "cached",
       "rows": 0,
-      "cached_rows": 17,
+      "cached_rows": 18,
       "latest_date": "20260721"
     }
   },
-  "updated_at": "2026-08-26T11:14:17+08:00",
+  "updated_at": "2026-08-26T17:22:10+08:00",
   "overall_status": "success",
-  "last_update_mode": "macro"
+  "last_update_mode": "close"
 }
