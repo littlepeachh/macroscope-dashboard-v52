@@ -76,9 +76,9 @@
     },
     "market": {
       "status": "success",
-      "rows": 31410,
-      "started_at": "2026-08-29T11:44:56+08:00",
-      "finished_at": "2026-08-29T11:45:33+08:00",
+      "rows": 33025,
+      "started_at": "2026-08-30T08:26:53+08:00",
+      "finished_at": "2026-08-30T08:27:00+08:00",
       "latest_date": "20260828",
       "total_cached_rows": 33028,
       "symbols": {
@@ -108,8 +108,9 @@
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
-          "status": "failed",
-          "error": "DataFetchError(\"指数行情失败: 中证指数官网 / AKShare: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) | 东方财富指数日线 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))) | 东方财富指数历史 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))\")"
+          "status": "success",
+          "rows": 1615,
+          "source": "中证指数官网 / AKShare"
         },
         "^IXIC": {
           "status": "success",
@@ -187,8 +188,8 @@
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-29T11:45:33+08:00",
-      "finished_at": "2026-08-29T11:54:47+08:00",
+      "started_at": "2026-08-30T08:27:00+08:00",
+      "finished_at": "2026-08-30T08:36:14+08:00",
       "latest_date": "20260827",
       "total_cached_rows": 58,
       "source_details": {
@@ -223,8 +224,8 @@
     "deviation": {
       "status": "success",
       "rows": 1705,
-      "started_at": "2026-08-29T11:54:47+08:00",
-      "finished_at": "2026-08-29T11:54:47+08:00",
+      "started_at": "2026-08-30T08:36:14+08:00",
+      "finished_at": "2026-08-30T08:36:14+08:00",
       "latest_date": "20260828",
       "total_cached_rows": 1705,
       "method": "(指数收盘/10周或20周均线-1)×100%",
@@ -330,7 +331,7 @@
       "latest_date": "20260721"
     }
   },
-  "updated_at": "2026-08-29T23:18:24+08:00",
+  "updated_at": "2026-08-30T08:26:53+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
