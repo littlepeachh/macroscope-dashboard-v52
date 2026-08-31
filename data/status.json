@@ -3,11 +3,11 @@
   "datasets": {
     "macro": {
       "status": "success",
-      "rows": 169,
-      "started_at": "2026-08-30T22:58:48+08:00",
-      "finished_at": "2026-08-30T22:59:16+08:00",
-      "latest_date": "202607",
-      "total_cached_rows": 169,
+      "rows": 170,
+      "started_at": "2026-08-31T16:35:08+08:00",
+      "finished_at": "2026-08-31T16:35:28+08:00",
+      "latest_date": "202608",
+      "total_cached_rows": 170,
       "source_details": {
         "components": {
           "money_supply": {
@@ -27,7 +27,7 @@
           },
           "pmi": {
             "status": "success",
-            "rows": 169,
+            "rows": 170,
             "source": "东方财富 / AKShare"
           },
           "cpi": {
@@ -40,19 +40,19 @@
           "人民银行社融存量部分年份失败: 2022: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2022ntjsj/shrzgm/index.html') | 2023: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2023ntjsj/shrzgm/index.html') | 2024: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2024ntjsj/shrzgm/index.html') | 2025: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2025ntjsj/shrzgm/index.html')"
         ]
       },
-      "cached_rows": 169
+      "cached_rows": 170
     },
     "liquidity": {
       "status": "success",
-      "rows": 4969,
-      "started_at": "2026-08-30T22:59:16+08:00",
-      "finished_at": "2026-08-30T22:59:35+08:00",
-      "latest_date": "20260828",
-      "total_cached_rows": 4969,
+      "rows": 4970,
+      "started_at": "2026-08-31T16:35:28+08:00",
+      "finished_at": "2026-08-31T16:35:43+08:00",
+      "latest_date": "20260831",
+      "total_cached_rows": 4970,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 4969,
+          "rows": 4970,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
@@ -62,7 +62,7 @@
         }
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 4969
+      "cached_rows": 4970
     },
     "fund_subscription": {
       "status": "success",
@@ -331,7 +331,7 @@
       "latest_date": "20260721"
     }
   },
-  "updated_at": "2026-08-31T08:40:19+08:00",
+  "updated_at": "2026-08-31T16:35:08+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
