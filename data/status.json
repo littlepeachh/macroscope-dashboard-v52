@@ -76,11 +76,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 33094,
-      "started_at": "2026-09-03T20:59:09+08:00",
-      "finished_at": "2026-09-03T20:59:19+08:00",
+      "rows": 33097,
+      "started_at": "2026-09-04T08:10:28+08:00",
+      "finished_at": "2026-09-04T08:10:39+08:00",
       "latest_date": "20260903",
-      "total_cached_rows": 33098,
+      "total_cached_rows": 33101,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -114,17 +114,17 @@
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1676,
+          "rows": 1677,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1676,
+          "rows": 1677,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1676,
+          "rows": 1677,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
@@ -183,20 +183,20 @@
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33098
+      "cached_rows": 33101
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-09-03T08:22:35+08:00",
-      "finished_at": "2026-09-03T08:31:48+08:00",
-      "latest_date": "20260901",
-      "total_cached_rows": 64,
+      "started_at": "2026-09-04T08:10:39+08:00",
+      "finished_at": "2026-09-04T08:19:53+08:00",
+      "latest_date": "20260902",
+      "total_cached_rows": 66,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260901",
+          "latest_date": "20260902",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -206,7 +206,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260901",
+          "latest_date": "20260902",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -215,17 +215,17 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260901",
-        "DGS10": "20260901"
+        "DGS2": "20260902",
+        "DGS10": "20260902"
       },
       "note": "DGS10独立抓取；DGS2失败不会阻止美国10年期国债收益率更新。",
-      "cached_rows": 64
+      "cached_rows": 66
     },
     "deviation": {
       "status": "success",
       "rows": 1710,
-      "started_at": "2026-09-03T21:01:17+08:00",
-      "finished_at": "2026-09-03T21:01:17+08:00",
+      "started_at": "2026-09-04T08:19:53+08:00",
+      "finished_at": "2026-09-04T08:19:53+08:00",
       "latest_date": "20260903",
       "total_cached_rows": 1710,
       "method": "(指数收盘/10周或20周均线-1)×100%",
@@ -338,7 +338,7 @@
       "latest_date": "20260721"
     }
   },
-  "updated_at": "2026-09-03T22:43:26+08:00",
+  "updated_at": "2026-09-04T08:10:28+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
