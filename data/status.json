@@ -76,11 +76,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 33253,
-      "started_at": "2026-09-15T21:50:42+08:00",
-      "finished_at": "2026-09-15T21:50:52+08:00",
-      "latest_date": "20260915",
-      "total_cached_rows": 33260,
+      "rows": 33247,
+      "started_at": "2026-09-16T08:30:36+08:00",
+      "finished_at": "2026-09-16T08:30:47+08:00",
+      "latest_date": "20260916",
+      "total_cached_rows": 33262,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -134,69 +134,69 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1683,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1683,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1683,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1683,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1683,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1683,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1683,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1684,
+          "rows": 1683,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1643,
+          "rows": 1644,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1643,
+          "rows": 1644,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33260
+      "cached_rows": 33262
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-09-15T08:42:42+08:00",
-      "finished_at": "2026-09-15T08:51:56+08:00",
-      "latest_date": "20260911",
-      "total_cached_rows": 78,
+      "started_at": "2026-09-16T08:30:47+08:00",
+      "finished_at": "2026-09-16T08:40:01+08:00",
+      "latest_date": "20260914",
+      "total_cached_rows": 80,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260911",
+          "latest_date": "20260914",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -206,7 +206,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260911",
+          "latest_date": "20260914",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -215,17 +215,17 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260911",
-        "DGS10": "20260911"
+        "DGS2": "20260914",
+        "DGS10": "20260914"
       },
       "note": "DGS10独立抓取；DGS2失败不会阻止美国10年期国债收益率更新。",
-      "cached_rows": 78
+      "cached_rows": 80
     },
     "deviation": {
       "status": "success",
       "rows": 1720,
-      "started_at": "2026-09-15T21:52:50+08:00",
-      "finished_at": "2026-09-15T21:52:50+08:00",
+      "started_at": "2026-09-16T08:40:01+08:00",
+      "finished_at": "2026-09-16T08:40:01+08:00",
       "latest_date": "20260915",
       "total_cached_rows": 1720,
       "method": "(指数收盘/10周或20周均线-1)×100%",
@@ -338,7 +338,7 @@
       "latest_date": "20260721"
     }
   },
-  "updated_at": "2026-09-15T23:15:58+08:00",
+  "updated_at": "2026-09-16T08:30:36+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
