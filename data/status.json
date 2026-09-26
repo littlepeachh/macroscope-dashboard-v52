@@ -76,9 +76,9 @@
     },
     "market": {
       "status": "success",
-      "rows": 31769,
-      "started_at": "2026-09-25T22:07:43+08:00",
-      "finished_at": "2026-09-25T22:08:25+08:00",
+      "rows": 33395,
+      "started_at": "2026-09-26T08:41:08+08:00",
+      "finished_at": "2026-09-26T08:41:17+08:00",
       "latest_date": "20260925",
       "total_cached_rows": 33411,
       "symbols": {
@@ -108,8 +108,9 @@
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
-          "status": "failed",
-          "error": "DataFetchError(\"指数行情失败: 中证指数官网 / AKShare: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) | 东方财富指数日线 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))) | 东方财富指数历史 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))\")"
+          "status": "success",
+          "rows": 1634,
+          "source": "中证指数官网 / AKShare"
         },
         "^IXIC": {
           "status": "success",
@@ -133,42 +134,42 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1692,
+          "rows": 1691,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1692,
+          "rows": 1691,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1692,
+          "rows": 1691,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1692,
+          "rows": 1691,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1692,
+          "rows": 1691,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1692,
+          "rows": 1691,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1692,
+          "rows": 1691,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1692,
+          "rows": 1691,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
@@ -187,15 +188,15 @@
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-09-25T08:37:05+08:00",
-      "finished_at": "2026-09-25T08:46:19+08:00",
-      "latest_date": "20260923",
-      "total_cached_rows": 94,
+      "started_at": "2026-09-26T08:41:17+08:00",
+      "finished_at": "2026-09-26T08:50:30+08:00",
+      "latest_date": "20260924",
+      "total_cached_rows": 96,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260923",
+          "latest_date": "20260924",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -205,7 +206,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260923",
+          "latest_date": "20260924",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -214,17 +215,17 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260923",
-        "DGS10": "20260923"
+        "DGS2": "20260924",
+        "DGS10": "20260924"
       },
       "note": "DGS10独立抓取；DGS2失败不会阻止美国10年期国债收益率更新。",
-      "cached_rows": 94
+      "cached_rows": 96
     },
     "deviation": {
       "status": "success",
       "rows": 1725,
-      "started_at": "2026-09-25T22:20:03+08:00",
-      "finished_at": "2026-09-25T22:20:03+08:00",
+      "started_at": "2026-09-26T08:50:30+08:00",
+      "finished_at": "2026-09-26T08:50:30+08:00",
       "latest_date": "20260924",
       "total_cached_rows": 1725,
       "method": "(指数收盘/10周或20周均线-1)×100%",
@@ -335,7 +336,7 @@
       "latest_date": "20260721"
     }
   },
-  "updated_at": "2026-09-25T23:32:38+08:00",
+  "updated_at": "2026-09-26T08:41:08+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
