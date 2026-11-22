@@ -65,9 +65,9 @@
     },
     "market": {
       "status": "success",
-      "rows": 22428,
-      "started_at": "2026-11-21T11:17:14+08:00",
-      "finished_at": "2026-11-21T11:17:34+08:00",
+      "rows": 24160,
+      "started_at": "2026-11-22T10:21:46+08:00",
+      "finished_at": "2026-11-22T10:22:09+08:00",
       "latest_date": "20261120",
       "total_cached_rows": 34152,
       "symbols": {
@@ -96,9 +96,9 @@
           "error": "DataFetchError('指数行情失败: ')"
         },
         "^IXIC": {
-          "status": "failed",
-          "rows": 0,
-          "source": null
+          "status": "success",
+          "rows": 1732,
+          "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
@@ -171,8 +171,8 @@
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-11-21T11:17:34+08:00",
-      "finished_at": "2026-11-21T11:26:49+08:00",
+      "started_at": "2026-11-22T10:22:09+08:00",
+      "finished_at": "2026-11-22T10:31:23+08:00",
       "latest_date": "20261119",
       "total_cached_rows": 172,
       "source_details": {
@@ -207,8 +207,8 @@
     "deviation": {
       "status": "success",
       "rows": 1760,
-      "started_at": "2026-11-21T11:26:49+08:00",
-      "finished_at": "2026-11-21T11:26:49+08:00",
+      "started_at": "2026-11-22T10:31:23+08:00",
+      "finished_at": "2026-11-22T10:31:23+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 1760,
       "method": "(指数收盘/10周或20周均线-1)×100%",
@@ -312,7 +312,7 @@
       "latest_date": "20260721"
     }
   },
-  "updated_at": "2026-11-22T01:46:00+08:00",
-  "overall_status": "partial",
-  "last_update_mode": "evening"
+  "updated_at": "2026-11-22T10:21:46+08:00",
+  "overall_status": "success",
+  "last_update_mode": "global"
 }
