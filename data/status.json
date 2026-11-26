@@ -65,11 +65,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 24204,
-      "started_at": "2026-11-26T12:12:34+08:00",
-      "finished_at": "2026-11-26T12:12:56+08:00",
+      "rows": 24203,
+      "started_at": "2026-11-27T02:36:40+08:00",
+      "finished_at": "2026-11-27T02:37:01+08:00",
       "latest_date": "20261126",
-      "total_cached_rows": 34197,
+      "total_cached_rows": 34198,
       "symbols": {
         "000001.SH": {
           "status": "failed",
@@ -112,7 +112,7 @@
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1737,
+          "rows": 1738,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
@@ -157,16 +157,16 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1690,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1691,
+          "rows": 1690,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 34197
+      "cached_rows": 34198
     },
     "global_macro": {
       "status": "success",
@@ -207,8 +207,8 @@
     "deviation": {
       "status": "success",
       "rows": 1760,
-      "started_at": "2026-11-26T12:22:09+08:00",
-      "finished_at": "2026-11-26T12:22:09+08:00",
+      "started_at": "2026-11-27T02:37:25+08:00",
+      "finished_at": "2026-11-27T02:37:25+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 1760,
       "method": "(指数收盘/10周或20周均线-1)×100%",
@@ -244,10 +244,10 @@
     "valuation": {
       "status": "success",
       "rows": 762,
-      "started_at": "2026-11-26T02:49:12+08:00",
-      "finished_at": "2026-11-26T02:49:38+08:00",
-      "latest_date": "20261125",
-      "total_cached_rows": 23652,
+      "started_at": "2026-11-27T02:37:01+08:00",
+      "finished_at": "2026-11-27T02:37:25+08:00",
+      "latest_date": "20261126",
+      "total_cached_rows": 23655,
       "indices": {
         "000001.SH": {
           "status": "failed",
@@ -281,13 +281,13 @@
           "source": "乐咕乐股 / AKShare"
         }
       },
-      "cached_rows": 23652
+      "cached_rows": 23655
     },
     "sentiment": {
       "status": "partial",
       "rows": 0,
-      "started_at": "2026-11-26T02:49:38+08:00",
-      "finished_at": "2026-11-26T02:49:38+08:00",
+      "started_at": "2026-11-27T02:37:25+08:00",
+      "finished_at": "2026-11-27T02:37:25+08:00",
       "latest_date": "20261030",
       "total_cached_rows": 51,
       "skipped": true,
@@ -312,7 +312,7 @@
       "latest_date": "20260721"
     }
   },
-  "updated_at": "2026-11-26T18:44:01+08:00",
-  "overall_status": "partial",
-  "last_update_mode": "macro"
+  "updated_at": "2026-11-27T02:36:40+08:00",
+  "overall_status": "success",
+  "last_update_mode": "close"
 }
