@@ -65,11 +65,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 24203,
-      "started_at": "2026-11-27T02:36:40+08:00",
-      "finished_at": "2026-11-27T02:37:01+08:00",
-      "latest_date": "20261126",
-      "total_cached_rows": 34198,
+      "rows": 24207,
+      "started_at": "2026-11-27T12:19:47+08:00",
+      "finished_at": "2026-11-27T12:20:09+08:00",
+      "latest_date": "20261127",
+      "total_cached_rows": 34200,
       "symbols": {
         "000001.SH": {
           "status": "failed",
@@ -157,22 +157,22 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1690,
+          "rows": 1692,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1690,
+          "rows": 1692,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 34198
+      "cached_rows": 34200
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-11-26T12:12:56+08:00",
-      "finished_at": "2026-11-26T12:22:09+08:00",
+      "started_at": "2026-11-27T12:20:09+08:00",
+      "finished_at": "2026-11-27T12:29:23+08:00",
       "latest_date": "20261124",
       "total_cached_rows": 178,
       "source_details": {
@@ -207,8 +207,8 @@
     "deviation": {
       "status": "success",
       "rows": 1760,
-      "started_at": "2026-11-27T02:37:25+08:00",
-      "finished_at": "2026-11-27T02:37:25+08:00",
+      "started_at": "2026-11-27T12:29:23+08:00",
+      "finished_at": "2026-11-27T12:29:23+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 1760,
       "method": "(指数收盘/10周或20周均线-1)×100%",
@@ -312,7 +312,7 @@
       "latest_date": "20260721"
     }
   },
-  "updated_at": "2026-11-27T03:49:09+08:00",
-  "overall_status": "partial",
-  "last_update_mode": "evening"
+  "updated_at": "2026-11-27T12:19:47+08:00",
+  "overall_status": "success",
+  "last_update_mode": "global"
 }
